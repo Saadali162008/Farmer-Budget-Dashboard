@@ -1,12 +1,11 @@
 .dashboard-layout{
   background-color: aqua;
   display: grid;
-  grid-template-columns: 10vw 90vw;
+  grid-template-columns: 260px 1fr;
   min-height: 100vh;
   gap: 0;
   color: aliceblue;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  width: 100%;
 }
