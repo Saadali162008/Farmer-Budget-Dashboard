@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+.small-disp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid white;
+    justify-content: space-between;
+    padding: 0.3rem 1rem;
+    border-radius: 0.5rem;
+    row-gap: 2rem;
+}
+.small-disp .small-disp-body{
+    color: #063E11;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    margin: 0;
+}
+.small-disp-head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.small-disp-head p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+}
+.small-disp-head img {
+    height: 2rem;
+    width:2rem;
+}
